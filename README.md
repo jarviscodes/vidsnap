@@ -1,6 +1,6 @@
 ## Vidsnap
 
-![Version 0.0.1](https://img.shields.io/badge/Version-0.0.1-blue)
+![Version 0.0.2](https://img.shields.io/badge/Version-0.0.2-blue)
 ![MIT License](https://img.shields.io/badge/License-MIT-success)
 
 Vidsnap is a small python utility to extract stills from video's using opencv.

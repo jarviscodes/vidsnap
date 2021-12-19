@@ -6,7 +6,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name="vidsnap",
-    version="0.0.1",
+    version="0.0.2",
     description="Vidsnap is a fast multithreaded tool to split videos into images.",
     long_description=README,
     long_description_content_type="text/markdown",
