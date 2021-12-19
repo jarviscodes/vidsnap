@@ -17,6 +17,8 @@ def write_images_from_video(video_path, every_x_sec, out_path):
     while current_frame < total_frames:
         capture.set(1, current_frame)
         ret, frame = capture.read()
+        if out_path[-1] != "/" or out_path[-1] != "\\":
+            out_path += "/"
         if ret:
             file_name = f"{out_path}{fnbase}-{current_frame}.jpg"
             cv2.imwrite(file_name, frame)
